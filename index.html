@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Prep | DOMA</title>
+    <meta name="description" content="How to prep and deliver your files for a grade at DOMA.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: #c6c6c6;
+            color: #1a1a1a;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container { max-width: 700px; margin: 0 auto; padding: 60px 24px 80px; }
+
+        .brand { margin-bottom: 48px; }
+        .brand h1 {
+            font-size: 14px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 2px; color: #1a1a1a;
+        }
+
+        .page-header { margin-bottom: 32px; }
+        .page-header h2 { font-size: 32px; font-weight: 700; line-height: 1.2; margin-bottom: 12px; }
+        .page-header p { font-size: 16px; color: #555; max-width: 52ch; }
+
+        .jump { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 40px; }
+        .jump a {
+            font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px;
+            color: #333; text-decoration: none; border-bottom: 1px solid rgba(0,0,0,0.25);
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        .jump a:hover { color: #ea3f33; border-color: #ea3f33; }
+
+        .deadline {
+            background: #ea3f33; color: #fff; padding: 20px 22px;
+            font-size: 14px; font-weight: 600; line-height: 1.55; margin-bottom: 40px;
+        }
+
+        section { margin-bottom: 40px; scroll-margin-top: 24px; }
+        section h3 {
+            font-size: 12px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 1.2px; color: #666; margin-bottom: 16px;
+        }
+        section > p { font-size: 15px; color: #333; margin-bottom: 14px; }
+
+        .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .card { background: rgba(255,255,255,0.45); padding: 20px 22px; }
+        .card .tag {
+            font-size: 12px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 1.2px; color: #ea3f33; margin-bottom: 4px;
+        }
+        .card h4 { font-size: 18px; font-weight: 700; line-height: 1.25; margin-bottom: 14px; }
+        .card .need-label {
+            font-size: 12px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 1.2px; color: #666; margin-bottom: 6px;
+        }
+
+        .list { list-style: none; }
+        .list li {
+            font-size: 15px; color: #333; padding: 10px 0 10px 20px;
+            border-bottom: 1px solid rgba(0,0,0,0.1); position: relative;
+        }
+        .list li:last-child { border-bottom: none; }
+        .list li::before { content: "-"; position: absolute; left: 0; color: #ea3f33; font-weight: 700; }
+        .list li strong { color: #1a1a1a; }
+
+        .folders {
+            background: #1a1a1a; color: #f2f2f2; padding: 20px 22px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 14px; line-height: 1.9; overflow-x: auto;
+        }
+        .folders .root { color: #ea3f33; font-weight: 700; }
+        .folders .sub { padding-left: 24px; }
+
+        .footer-note { margin-top: 40px; font-size: 13px; color: #666; line-height: 1.5; }
+
+        @media (max-width: 600px) {
+            .container { padding: 40px 20px 60px; }
+            .page-header h2 { font-size: 26px; }
+            .cards { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brand">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="35" viewBox="0 0 38 35" fill="none" style="margin-bottom: 12px;"><path fill="currentColor" d="M31.48 18.5c-.08 1.62-.97 3.37-1.7 4.57-.95 1.52-2.16 3-3.43 4.15l-2.14 1.94.1-1.14a77.09 77.09 0 0 1-2.89 3.21l-.1.78h.86c.25 0 .36-.1.5-.2l.06-.05a3.12 3.12 0 0 1 1.9-.66c.18 0 .35.02.52.05 1.44-1.54 3.67-3.85 5.57-6.55-.03.42.08 1.35.05 1.77 3.74-3.57 4.73-7.02 4.79-7.92a4.9 4.9 0 0 0-.08-1.1c-.05-.31-.12-.61-.18-.9-.01-.12-2.72.53-3.91.82.07.45.1.85.08 1.24zM25.58 34a2.87 2.87 0 0 0-.08.27 3.53 3.53 0 0 1-.25.68h3.32c.98 0 .77-1 .98-1.37.25-.4.67-1.02 1.13-.95-.3-.36-.8-.28-1.28-.24a1.5 1.5 0 0 0-.72.27c-.18.12-.55.5-1.26.5h-.71l-.72.38c-.29.16-.35.29-.42.45"></path><path fill="currentColor" d="M34.37 8.68l.22-.01A3.4 3.4 0 0 0 37 7.37c-5.55-1.41-5.94-6.36-5.94-6.36s-.73 1.26-1 1.47c-.2.16-.45.3-.7.3a.56.56 0 0 1-.23-.04c-.65-.3-2-2.28-4.37-2.5-5.3-.51-9.33 3.65-10.5 5.83.9-.27 1.77-.58 2.6-.39a93.36 93.36 0 0 0-4.42 5.8 81.02 81.02 0 0 0-1.68 2.5c-.53.8-.98 1.73-1.64 2.44C12.73 8.02 12.86.23 8.7.01 5.88-.14 4.4 1.66 3.5 4.64c-.72.49-1.59 2.14-1.6 3.43a1.85 1.85 0 0 1 1.46-.2 4.84 4.84 0 0 0-.97 3.58c.2-.36.78-.67 1.08-.64v.2a13.71 13.71 0 0 1-1.25 5.66c1.8-1.83 2.8-5.08 2.78-7.57-.05-4.36 1.51-7 2.97-6.98 2.75.05.43 8.28-1.83 13.46-1.52 3.37-3.08 5.63-3.69 8.45-.4 1.9-.06 3.92.1 5.35A6.9 6.9 0 0 1 1 28.43c.06 6.1 5.2 6.52 7.3 6.52 3.5 0 5.7-3.09 7.8-7.12 1.46-2.8 3.33-4.4 5.66-4.88-2.35 2.02-4.1 4.05-5.76 9.55-.4 1.32-1.36 1.93-2.1 2.45h9.43c.98 0 .95-.75 1.17-1.35.15-.42.4-.77.94-1.06-.15-.18-.45-.3-.81-.3-.36 0-.81.13-1.19.42-.17.14-.55.5-1.26.5H18.6c-1.11 0 3.44-3.66 6.9-8.56.12.56.1 1.35.07 1.77 2.35-2.15 4.66-5.64 4.76-7.92a5.44 5.44 0 0 0-.08-1.1c-.07-.46-.12-.48-.18-.9-1.23.3-2.65.53-4.26.96-1.69.45-2.18 1.32-4.53 1.65-1.97.27-4.07.05-5.85.93-1.01.5-2.84 2.43-4.03 4.37.2-1.97 2.3-5.23 4.55-6.02 2.32-.81 5.1.09 7.15-1.26 1.63-1.07 1.4-2.89 1.4-3.86.57-.1 1.01.35 1.48.73.15-1.75-1.14-4.14-2.44-5.46-.44-.44-.17-.88.26-1.42a4.1 4.1 0 0 1 1.42-1.06c.26-.12.67-.24 1.04-.24.2 0 .4.04.55.13.77.5-.45 1.19-.83 1.47a2.4 2.4 0 0 0-.8 1.2c2.05-1.05 3.9 0 4.58.56.9.76 1.48 1.85 2.39 2.61.51.43 1.22.72 1.88.72.5 0 .98-.46 1.3-.85a1.55 1.55 0 0 1-.22.01c-1.77 0-3.52-2.69-2.78-3.57.66.35 1.29.63 2.03.63"></path></svg>
+            <h1>DOMA</h1>
+        </div>
+
+        <div class="page-header">
+            <h2>Grade Prep</h2>
+            <p>How to prep and deliver your files for your grade at DOMA. Any questions, just check in with your DOMA grade producer.</p>
+        </div>
+
+        <nav class="jump">
+            <a href="#workflows">Workflows</a>
+            <a href="#guidelines">Guidelines</a>
+            <a href="#export">Flat ProRes</a>
+            <a href="#cgi">CGI and VFX</a>
+            <a href="#folders">Folders</a>
+        </nav>
+
+        <div class="deadline">
+            Please deliver your files at least 24 hours before your session. This gives us enough time to prep them. If files arrive late, your session could be postponed or your grading time limited.
+        </div>
+
+        <section id="workflows">
+            <h3>Choose your workflow</h3>
+            <p>We grade from either original rushes or pre-conformed flat ProRes, depending on the process we have agreed with you. If you are doing VFX or CGI first, talk to your DOMA producer about the workflow and see the CGI and VFX section below.</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="tag">Workflow 1</div>
+                    <h4>Original Rushes</h4>
+                    <div class="need-label">What we need</div>
+                    <ul class="list">
+                        <li>Original rushes, or trimmed consolidated media with handles (please confirm with us if you choose trimmed media).</li>
+                        <li>XML/EDL or AAF/EDL of the final edit, including any sizing, speed changes and graphics/titles.</li>
+                        <li>An offline reference video of the final edit with source file names and timecodes burnt in.</li>
+                        <li>Stereo 48kHz 16-bit WAV audio file, same start and length as the edit.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="tag">Workflow 2</div>
+                    <h4>Pre-Conformed Flat ProRes 4444</h4>
+                    <div class="need-label">What we need</div>
+                    <ul class="list">
+                        <li>Pre-conformed flat ProRes 4444 12 bit QX.</li>
+                        <li>Pre-conformed EDL of the final edit with matching record timecode.</li>
+                        <li>An offline reference video of the final edit with source file names and timecodes burnt in.</li>
+                        <li>Stereo 48kHz 16-bit WAV audio file, same length as the edit.</li>
+                        <li>A single trimmed raw rushes clip from part of the edit, with timecode, for quality comparison.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="guidelines">
+            <h3>Key guidelines</h3>
+            <ul class="list">
+                <li><strong>Duplicate your sequence.</strong> Do this before any changes. It is your safety net if something goes wrong.</li>
+                <li><strong>Flatten your sequence.</strong> Condense it onto one track (usually V1) and remove any unnecessary layers or transitions.</li>
+                <li><strong>Unpack nested clips.</strong> Nested or multicam clips need unpacking and linking back to their original master clips.</li>
+                <li><strong>Flatten grouped clips.</strong> Grouped clips can cause complications, so flatten them before sending.</li>
+                <li><strong>Avoid frame-cut clips.</strong> Please don't send frame-cut clips for speed changes.</li>
+            </ul>
+        </section>
+
+        <section id="export">
+            <h3>Exporting the pre-conformed flat ProRes</h3>
+            <p>A few reminders before you send your sequence over.</p>
+            <ul class="list">
+                <li><strong>Link to original rushes.</strong> Your sequence should be linked directly to the original rushes, not proxies or transcodes.</li>
+                <li><strong>Remove the extras.</strong> Take out titles, fades and transitions. We can add them back in if needed.</li>
+                <li><strong>Handle dissolves with care.</strong> If you can, supply the individual clips separately. If not, include the full transition length of each clip in an A/B edit.</li>
+                <li><strong>Keep sizing and speed consistent.</strong> Match the offline edit, especially if they are final.</li>
+                <li><strong>No LUTs.</strong> Keep the picture in LOG and remove all LUTs, colour and Lumetri effects. Premiere can apply a LUT to log material automatically. Remove it by selecting the clips and choosing "Remove Masterclip Effects".</li>
+            </ul>
+        </section>
+
+        <section id="cgi">
+            <h3>CGI and VFX prep</h3>
+            <p>If you are supplying CGI or VFX renders for grade, follow these guidelines so we can prep efficiently.</p>
+            <ul class="list">
+                <li><strong>Preferred format:</strong> EXR sequences compressed with DWAA, which keeps file sizes manageable. ProRes is accepted, but EXR is preferred for fidelity and flexibility in the grade.</li>
+                <li>EDL, XML or AAF of the final timeline.</li>
+                <li>Colour space information for the supplied renders (ACEScg, Linear, sRGB etc).</li>
+                <li>Offline reference video with source file names and timecodes burnt in.</li>
+                <li>Audio WAV file, stereo 48kHz 16-bit, matching the length of the timeline.</li>
+                <li><strong>LUMA mattes</strong> for any key VFX elements. Please supply LUMA mattes, not Cryptomattes. Cryptomattes aren't designed for grading and aren't handled well in Resolve. Individual LUMA mattes per element give us better control.</li>
+                <li>Clearly named folders and sequences.</li>
+                <li><strong>Allow extra time.</strong> EXR sequences are large, so allow for upload and transfer. The 24 hour deadline still applies.</li>
+            </ul>
+        </section>
+
+        <section id="folders">
+            <h3>Label your prep folder</h3>
+            <p>Please clearly label the colour prep folder on your drive like this:</p>
+            <div class="folders">
+                <div class="root">FOR GRADE</div>
+                <div class="sub">EDL / AAFS / XMLS</div>
+                <div class="sub">ProRes</div>
+                <div class="sub">Offline_Reference</div>
+                <div class="sub">Audio</div>
+                <div class="sub">Original_Rushes</div>
+            </div>
+        </section>
+
+        <p class="footer-note">Any questions, please contact your grade producer.<br>DOMA Works Ltd</p>
+    </div>
+</body>
+</html>
